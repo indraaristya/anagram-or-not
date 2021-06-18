@@ -1,4 +1,11 @@
 # _Anagram or not?_
+
+##### How to run
+Make sure you already has Node installed in your device. Pull this repository, and just run using node by call this command.
+```
+node anagram.js
+```
+
 #### [EN]
 ##### Basic logic 
 In my logic, there are 2 rules that should we checked to make a group of anagram strings. The first rule is the words should have same length of characters. This "length-checker" will ignore space (if any) and it's very clear if the anagram words should have same numbers of letter. The second rule is check whether the number of letter that appeared is same or not. In this rule, we should make it case insensitive, where that's mean capital and lower case letter will be counted as same letter.
