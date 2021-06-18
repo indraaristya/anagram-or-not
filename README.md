@@ -1,4 +1,4 @@
-[Anagram or not?](#anagram-or-not)
+[Anagram or not?](#anagram-or-not)<br/>
 [Find word between the brackets](#find-word-between-the-brackets)
 
 # Anagram or not
