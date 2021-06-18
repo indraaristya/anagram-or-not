@@ -1,4 +1,7 @@
-# _Anagram or not?_
+[Anagram or not?](#anagram-or-not)
+[Find word between the brackets](#find-word-between-the-brackets)
+
+# Anagram or not
 
 ##### How to run
 Make sure you already has Node installed in your device. Pull this repository, and just run using node by call this command.
@@ -25,3 +28,22 @@ Saya menggunakan 2 aturan utama untuk mengetahui dan dapat membuat kumpulan kata
 Aturan pertama; kedua kata memiliki 3 huruf. PASSED dan bisa dilakukan pengecekan aturan kedua,<br/>
 Aturan kedua; kedua kata memiliki jumlah kemunculan huruf yang sama, yaitu huruf "A", "K", dan "U" yang masing - masing muncul sebanyak 1 kali...<br/>
 maka kata **"AKU" dan "KUA" adalah kata yang anagram**.
+
+
+# Find word between the brackets
+
+##### How to run
+Make sure you already has Node installed in your device. Pull this repository, and just run using node by call this command.
+```
+node findWord.js
+```
+
+#### [EN]
+##### Basic logic 
+The original function shows that we need to return word/letters between the first open and closed brackets. So, we should look for where is the position/index of the open and the close brackets. If there is no brackets, or may be there is only 1 bracket, then return the error message. 
+I just make it easier to read and simplifying it by reducing the if-else syntax and also change the variables name to a more readable and understandable.
+
+#### [ID]
+##### Cara penyelesaian
+Fungsi tersebut merupakan fungsi untuk mencari kata/huruf yang ada di antara tanda kurung buka dan kurung tutup yang pertama. Untuk itu, perlu diketahui terlebih dahulu posisi dari kurung buka dan kurung tutup. Jika tidak ada tanda kurung, atau terdapat hanyak 1 tanda kurung, maka fungsi akan memberikan pesan error.
+Syntax yang diubah adalah mengurangi penggunaan if-else sehingga membuatnya lebih mudah dibaca dan juga mengganti nama variables menjadi lebih mudah agar dapat lebih mudah dibaca dan cepat dipahami.
